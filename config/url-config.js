@@ -1,0 +1,1 @@
+export const getBaseUrl = 'http://xxx:8080'
