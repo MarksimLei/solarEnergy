@@ -53,44 +53,53 @@
 				"navigationBarTitleText": "tabBar3",
 				"enablePullDownRefresh": false
 			}
+		}, {
+			"path": "pages/tabBar/mine/mine",
+			"style": {
+				"navigationBarTitleText": "tabBar4",
+				"enablePullDownRefresh": false
+			}
+
 		},
-		
 		{
 			"path": "pages/template/view/view",
 			"style": {
 				"navigationBarTitleText": "view"
 			}
+		}, {
+			"path": "pages/solar/Authority/Authority",
+			"style": {
+				"navigationBarTitleText": "权限管理",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/electric/about/about",
+			"style": {
+				"navigationBarTitleText": "关于",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/storage/ucharts/ucharts",
+			"style": {
+				"navigationBarTitleText": "chart图",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/solar/ProjectMap/ProjectMap",
+			"style": {
+				"navigationBarTitleText": "项目地图展示",
+				"enablePullDownRefresh": false
+			}
+
 		}
 	    ,{
-            "path" : "pages/solar/Authority/Authority",
+            "path" : "pages/mine/test/test",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "权限管理",
-                "enablePullDownRefresh": false
-            }
-            
-        },{
-            "path" : "pages/electric/about/about",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "关于",
-                "enablePullDownRefresh": false
-            }
-            
-        },{
-            "path" : "pages/storage/ucharts/ucharts",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "chart图",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/solar/ProjectMap/ProjectMap",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "项目地图展示",
+                "navigationBarTitleText": "ces",
                 "enablePullDownRefresh": false
             }
             
@@ -143,6 +152,11 @@
 				"iconPath": "static/images/logo.png",
 				"selectedIconPath": "static/images/logo.png",
 				"text": "tabBar3"
+			}, {
+				"pagePath": "pages/tabBar/mine/mine",
+				"iconPath": "static/images/logo.png",
+				"selectedIconPath": "static/images/logo.png",
+				"text": "tabBar4"
 			}
 
 		]

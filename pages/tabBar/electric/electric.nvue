@@ -140,14 +140,14 @@
 						]
 					},
 					
-					{
-					    name: '密码修改',
-					    url: 'vant-button'
-					},
-					{
-					    name: '退出登录',
-					    url: 'vant-button'
-					}
+					// {
+					//     name: '密码修改',
+					//     url: 'vant-button'
+					// },
+					// {
+					//     name: '退出登录',
+					//     url: 'vant-button'
+					// }
 					// #endif
 				]
 			}

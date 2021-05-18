@@ -7,7 +7,7 @@
 			</navigator>
 		</view>
 		<custom-tab-bar class="tab-bar-flex" direction="horizontal" :show-icon="false" :selected="current" @onTabItemTap="toSecondMenu" />
-		<button type="default" plain size="mini" @click="submitForm">退出登录</button>
+		<!-- <button type="default" plain size="mini" @click="submitForm">退出登录</button> -->
 	</view>
 </template>
 
@@ -22,6 +22,7 @@
 					solar: 0,
 					electric: 1,
 					storage: 2,
+					mine:3,
 				},
 				current: 0,
 
@@ -34,6 +35,9 @@
 				}, {
 					tabBar: '/pages/tabBar/storage/storage',
 					index: '/pages/storage/ucharts/ucharts'
+				}, {
+					tabBar: '/pages/tabBar/mine/mine',
+					index: '/pages/mine/test/test'
 				}]
 			}
 		},

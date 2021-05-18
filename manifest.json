@@ -91,7 +91,11 @@
             "postcss" : true,
             "minified" : true
         },
-        "permission" : {},
+        "permission" : {
+            "scope.userLocation" : {
+                "desc" : "硬件定位"
+            }
+        },
         "uniStatistics" : {
             "enable" : false
         }

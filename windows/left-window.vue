@@ -10,6 +10,7 @@
 	import solar from '@/pages/tabBar/solar/solar.nvue'
 	import electric from '@/pages/tabBar/electric/electric.nvue'
 	import storage from '@/pages/tabBar/storage/storage.nvue'
+	import mine from '@/pages/tabBar/mine/mine.nvue'
 
 	import {
 		mapMutations,
@@ -21,7 +22,8 @@
 				nav: [
 					'solar',
 					'electric',
-					'storage'
+					'storage',
+					'mine'
 				]
 			}
 		},
@@ -34,6 +36,7 @@
 			solar,
 			electric,
 			storage,
+			mine
 		},
 		computed: {
 			...mapState({
@@ -62,6 +65,7 @@
 							})
 						} else {
 							let active = newRoute.path.split('/')[2]
+							this.l('active',active)
 							if (this.nav.includes(active)) {
 								this.setActive(active)
 							}
