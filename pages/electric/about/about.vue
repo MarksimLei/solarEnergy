@@ -1,6 +1,6 @@
 <template>
-	<view>
-		
+	<view class="container">
+		about
 	</view>
 </template>
 
@@ -8,12 +8,17 @@
 	export default {
 		data() {
 			return {
-				
-			};
+			}
+		},
+		mounted(){
+			
+		},
+		methods: {
+
 		}
 	}
 </script>
 
-<style lang="scss">
+<style>
 
 </style>
