@@ -49,6 +49,7 @@
 			$route: {
 				immediate: true,
 				handler(newRoute) {
+					this.l('this.showLeftWindow',this.showLeftWindow)
 					if ( this.showLeftWindow ) {
 						let comp = newRoute.path.split('/')[2]
 							this.current = this.selected[comp]

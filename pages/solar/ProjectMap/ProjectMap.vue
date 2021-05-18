@@ -1,6 +1,5 @@
 <template>
 	<view>
-		<page-head :title="title"></page-head>
 		<view class="uni-common-mt">
 			<view>
 				<map :latitude="latitude" :longitude="longitude" :markers="covers" :style='{"height":calcHeight+"px"}'>

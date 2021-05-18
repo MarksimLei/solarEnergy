@@ -1,6 +1,6 @@
 <template>
 	<view class="login-box">
-<!-- 		<view class="admin-logo">
+		<!-- 		<view class="admin-logo">
 			<image :src="logo" mode="heightFix"></image>
 		</view> -->
 		<view class="uni-header no-padding">
@@ -41,13 +41,13 @@
 </template>
 
 <script>
-import {
+	import {
 		mapMutations
 	} from 'vuex'
 	export default {
 		data() {
 			return {
-				
+
 				indexPage: "",
 				showPassword: true,
 				loading: false,
@@ -110,13 +110,13 @@ import {
 		},
 		methods: {
 			...mapMutations(['login', 'logout']),
-			submit(){},
+			submit() {},
 			createCaptcha() {
-				
+
 			},
 
 			getNeedCaptcha() {
-				
+
 			},
 
 			confirmForm(name, value) {
@@ -124,15 +124,21 @@ import {
 			},
 			submitForm() {
 				this.login('session')
+				// #ifdef H5
 				uni.redirectTo({
 					url: '/pages/solar/Authority/Authority',
 				})
+				// #endif
+				// #ifdef MP-WEIXIN
+				uni.switchTab({
+					url: '/pages/tabBar/solar/solar',
+				})
+				// #endif
 			},
 			initAdmin() {
-				
+
 			},
-			changePassword: function() {
-			},
+			changePassword: function() {},
 			// #ifdef H5
 			focus: function() {
 				this.$refs.usernameInput.$refs.input.focus()

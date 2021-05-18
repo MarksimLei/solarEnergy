@@ -38,19 +38,19 @@
 		{
 			"path": "pages/tabBar/solar/solar",
 			"style": {
-				"navigationBarTitleText": "太阳能智慧路灯",
+				"navigationBarTitleText": "tabBar1",
 				"enablePullDownRefresh": false
 			}
 		}, {
 			"path": "pages/tabBar/electric/electric",
 			"style": {
-				"navigationBarTitleText": "市电智慧路灯",
+				"navigationBarTitleText": "tabBar2",
 				"enablePullDownRefresh": false
 			}
 		}, {
 			"path": "pages/tabBar/storage/storage",
 			"style": {
-				"navigationBarTitleText": "智慧储能",
+				"navigationBarTitleText": "tabBar3",
 				"enablePullDownRefresh": false
 			}
 		},
@@ -130,19 +130,19 @@
 				"pagePath": "pages/tabBar/solar/solar",
 				"iconPath": "static/images/logo.png",
 				"selectedIconPath": "static/images/logo.png",
-				"text": "太阳能智慧路灯"
+				"text": "tabBar1"
 			},
 			{
 				"pagePath": "pages/tabBar/electric/electric",
 				"iconPath": "static/images/logo.png",
 				"selectedIconPath": "static/images/logo.png",
-				"text": "市电智慧路灯"
+				"text": "tabBar2"
 			},
 			{
 				"pagePath": "pages/tabBar/storage/storage",
 				"iconPath": "static/images/logo.png",
 				"selectedIconPath": "static/images/logo.png",
-				"text": "智慧储能"
+				"text": "tabBar3"
 			}
 
 		]

@@ -58,7 +58,7 @@
 							this.setActive(this.nav[0])
 						} else if (!newRoute.matched.length) {
 							uni.redirectTo({
-								url: 'pages/error/404'
+								url: 'pages/template/error/404'
 							})
 						} else {
 							let active = newRoute.path.split('/')[2]

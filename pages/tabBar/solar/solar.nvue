@@ -1,6 +1,6 @@
 <template>
 	<view class="uni-container">
-		<view>太阳能路灯</view>
+		<view>tabBar1</view>
 		<view :class="{'pc-hide': hideList.indexOf(item.url) !== -1  && hasLeftWin}" class="uni-panel" v-for="(item, index) in list" :key="item.id">
 			<view :class="{'left-win-active': leftWinActive === item.url  && hasLeftWin, 'uni-panel-h-on': activeOpen === item.id}" class="uni-panel-h" @click="triggerCollapse(index, item.id)">
 				<text class="uni-panel-text">{{item.name}}</text>
@@ -102,7 +102,7 @@
 							{
 								name: '统计',
 								url: 'ucharts',
-								sub: 'storagesPage'
+								sub: 'storage'
 							},{
 								name: '项目信息',
 								url: 'nav-button'

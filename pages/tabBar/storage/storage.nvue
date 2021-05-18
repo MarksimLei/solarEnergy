@@ -1,6 +1,6 @@
 <template>
 	<view class="uni-container">
-		<view>智能储能</view>
+		<view>tabBar3</view>
 		<view :class="{'pc-hide': hideList.indexOf(item.url) !== -1  && hasLeftWin}" class="uni-panel" v-for="(item, index) in list" :key="item.id">
 			<view :class="{'left-win-active': leftWinActive === item.url  && hasLeftWin, 'uni-panel-h-on': activeOpen === item.id}" class="uni-panel-h" @click="triggerCollapse(index, item.id)">
 				<text class="uni-panel-text">{{item.name}}</text>
