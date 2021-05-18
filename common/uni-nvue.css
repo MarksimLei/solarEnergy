@@ -87,6 +87,10 @@ page {
     font-weight: normal;
 }
 
+.uni-panel-text-indent {
+	text-indent: 20rpx;
+}
+
 .uni-panel-icon {
     margin-left: 15px;
     color: #999999;
