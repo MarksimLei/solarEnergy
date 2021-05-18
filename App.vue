@@ -13,6 +13,16 @@ export default {
 </script>
 
 <style>
+@import './common/uni.css';
+	
+/* H5 兼容 pc 所需 */
+/* #ifdef H5 */
+@media screen and (min-width: 768px) {
+	body{
+		overflow-y: scroll;
+	}
+}
+/* #endif */
 /* 解决头条小程序组件内引入字体不生效的问题 */
 /* #ifdef MP-TOUTIAO */
 @font-face {
