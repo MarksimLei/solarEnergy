@@ -2,7 +2,11 @@
 	<view>
 		<view class="uni-common-mt">
 			<view>
-				<map :latitude="latitude" :longitude="longitude" :markers="covers" :style='{"height":calcHeight+"px"}'>
+				<map :latitude="latitude" :longitude="longitude" scale='3' 
+				@tap='tap' @markertap='tab1'
+				@labeltap='tap2' @anchorpointtap='tab3'
+				@poitap='tap4'
+				:markers="covers" :style='{"height":calcHeight+"px"}'>
 				</map>
 			</view>
 		</view>
@@ -49,7 +53,19 @@
 			})
 		},
 		methods: {
-
+			tap(e){
+				this.l('tap',e)
+			},
+			tap1(e){
+				this.l('tap1',e)
+			},tap2(e){
+				this.l('tap2',e)
+			},
+			tap3(e){
+				this.l('tap3',e)
+			},tap4(e){
+				this.l('tap4',e)
+			}
 		}
 	}
 </script>

@@ -37,7 +37,17 @@
                 ]
             },
             "ios" : {},
-            "sdkConfigs" : {},
+            "sdkConfigs" : {
+                "maps" : {},
+                "ad" : {},
+                "geolocation" : {
+                    "baidu" : {
+                        "__platform__" : [ "ios", "android" ],
+                        "appkey_ios" : "",
+                        "appkey_android" : ""
+                    }
+                }
+            },
             "icons" : {
                 "android" : {
                     "hdpi" : "unpackage/res/icons/72x72.png",
@@ -80,6 +90,25 @@
             "es6" : true,
             "postcss" : true,
             "minified" : true
+        },
+        "permission" : {},
+        "uniStatistics" : {
+            "enable" : false
         }
+    },
+    "h5" : {
+        "sdkConfigs" : {
+            "maps" : {
+                "qqmap" : {
+                    "key" : "AZVBZ-W5ZC5-OE2IO-Q2SGJ-5VIYZ-EPB55"
+                }
+            }
+        },
+        "uniStatistics" : {
+            "enable" : true
+        }
+    },
+    "mp-baidu" : {
+        "appid" : ""
     }
 }
